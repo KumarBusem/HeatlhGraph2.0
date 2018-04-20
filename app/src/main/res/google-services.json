@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "5354378169",
+    "firebase_url": "https://healthgraph-fc480.firebaseio.com",
+    "project_id": "healthgraph-fc480",
+    "storage_bucket": "healthgraph-fc480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5354378169:android:86ad5faabcb686c5",
+        "android_client_info": {
+          "package_name": "com.example.busemkumar.heatlhgraph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5354378169-bfc7uprhasjnrkvk5tuse448698ftloh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdIT7PsAw47URaJQ-mwxU07Z7Qsw3JBBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

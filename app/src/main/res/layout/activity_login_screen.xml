@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_back"
+    android:weightSum="16"
+    tools:context="com.example.busemkumar.heatlhgraph.Login_screen_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hglogo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Stay connected with your patients" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Any where and Any time" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="6">
+
+        <EditText
+            android:id="@+id/eemail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/epass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="60dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="10dp"
+            android:text="Login"
+            android:onClick="Login_for_games"
+            android:textColor="#535353"
+            android:background="@drawable/edittext"
+            android:layout_marginRight="60dp" />
+        <com.google.android.gms.common.SignInButton
+            android:layout_marginLeft="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_sign_in"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New account"
+            android:textSize="14dp"
+            android:onClick="createAcoount"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginLeft="40dp"
+            android:onClick="nav_contact"
+            android:text="Contact Us" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
